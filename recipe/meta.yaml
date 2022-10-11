@@ -1,5 +1,5 @@
 {% set name = "element-coder" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/element_coder-{{ version }}.tar.gz
-  sha256: 3704c66ca4a2ad16c449f33bdee0112650e391200465774014b77eb11589d944
+  sha256: cf23ccdfe5bcfee93730c38f2a57621f2fdb314ebb26ebb9b1139708f7c57570
 
 build:
   number: 0
